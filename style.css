@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    font-family: 'League Spartan', sans-serif;
+    background-image: url(light-paper-texture.jpg);
+}
+
+footer {
+    padding: 3px;
+    background-color: #8576F7;
+    color: #F5EBD7;
+}
+
+.top-container {
+    background-color: #C5BFF6;
+    padding: 10px;
+    text-align: center;
+}
+
+#navbar {
+    text-align:center;
+    background-color: #8576F7;
+    position: sticky;
+    top: 0;
+    color: #F5EBD7;
+    padding: 20px 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#navbar li {
+    display:inline;
+}
+
+#navbar a {
+    font-size: 20px;
+    color: whitesmoke;
+    justify-items: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    list-style: none;
+}
+
+#navbar a:hover{
+    background-color: #C5BFF6;
+}
+
+.popup {
+    border: 5px #700EEA;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-style: dotted;
+    border-right-style: dotted;
+    padding: 30px;
+    margin-top: 70px;
+    margin-right: 250px;
+    margin-left: 250px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.popup-no-border {
+    padding: 100px;
+    margin-right: 250px;
+    margin-left: 250px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.homepage {
+    padding: 70px;
+    margin-top: 50px;
+    margin-right: 250px;
+    margin-left: 350px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.homepage a, .about a {
+    height: 60px;
+    color: #060721;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    padding: 10px;
+}
+
+.homepage a:hover, .about a:hover {
+    background-color: #700EEA;
+}
+
+.img-gallery {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 400px 400px; 
+    padding: 10px;
+}
+
+.img-gallery > div {
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.about {
+    padding: 30px;
+    margin-top: 20px;
+    margin-right: 250px;
+    margin-left: 250px;
+    font-size: 20px;
+    background-color: #F5EBD7;
+    border: 5px dotted #C5BFF6;
+}
+
+.quote {
+    text-indent: 5%;
+    color:#700EEA;
+    margin-bottom: 10px;
+}
+
+.contact {
+    border: 5px solid #700EEA;
+    padding: 30px;
+    margin-top: 20px;
+    margin-right: 250px;
+    margin-left: 250px;
+    font-size: 20px;
+    background-color: #C5BFF6;
+}
+
+#contact-info , #contact-info a{
+    color: #700EEA;
+    text-decoration: none;
+}
+
+#panel , #achieve-panel, #skills-panel, #educ-panel{
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #F5EBD7;
+    border: solid 1px #C5BFF6;
+    margin-top: 20px;
+    margin-right: 250px;
+    margin-left: 250px;
+}
+
+#chat-panel {
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: whitesmoke;
+    border: solid 1px #C5BFF6;
+    margin-top: 20px;
+    margin-right: 250px;
+    margin-left: 250px;
+}
+
+#chat-info {
+    padding: 50px;
+    display: none;
+    background-color: whitesmoke;
+    border: solid 1px #C5BFF6;
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#cats-gallery {
+    padding: 50px;
+    display: none;
+    text-align: center;
+    font-weight: bold;
+    background-color: #F5EBD7;
+    border: dotted 3px #C5BFF6;
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-bottom: 20px;
+}
+
+#achievements-info, #skills-info, #educ-info{
+    padding: 50px;
+    display: none;
+    background-color: #F5EBD7;
+    border: solid 1px #C5BFF6;
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#educ-info{
+    padding: 50px;
+    display: none;
+    background-color: #F5EBD7;
+    border: solid 1px #C5BFF6;
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-bottom: 20px;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.portfolio-gallery {
+    margin: 5px;
+    border: 1px solid #8576F7;
+    float: center;
+    width: 180px;
+    background-color: #C5BFF6;
+}
+
+.portfolio-gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+    color:#700EEA;
+}

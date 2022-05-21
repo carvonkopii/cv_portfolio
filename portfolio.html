@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://unpkg.com/tailwindcss@%5E2/dist/tailwind.min.css" rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+        <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@200&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#achieve-panel").click(function(){
+                    $("#achievements-info").slideToggle("slow");
+                });
+            });
+
+            $(document).ready(function(){
+                $("#skills-panel").click(function(){
+                    $("#skills-info").slideToggle("slow");
+                });
+            });
+
+            $(document).ready(function(){
+                $("#educ-panel").click(function(){
+                    $("#educ-info").slideToggle("slow");
+                });
+            });
+        </script>
+    </head>
+
+    <body>
+        
+        <div class="top-container relative">
+            <div class='flex items-center justify-center'>
+                <img src="banner.png" alt="cozmogyral banner" width="845px" height="263px">
+            </div>
+        </div>
+
+        <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
+            <li><a href="portfolio.html">Porfolio</a></li>
+            <li><a href="contacts.html">Contact</a></li>
+        </ul>
+
+        <div class="about">
+            <img src="lightbulb2.png" alt="Main Art" width="300" height="300" align = "left">
+
+            <h2> Accomplished Works </h2>
+            <p> A compilation of my works: </p> 
+            ★ artworks <br>
+            ★ photographs <br>
+            ★ websites <br>
+            ★ programs <br>
+            ★ achievements <br>
+            ★ skills <br>
+            <center> <a href="#portfolio">Enter</a></center>
+        </div>
+
+        <br>
+
+        <div class="popup-no-border">
+            <section id="portfolio">
+                <div class="flex flex-wrap">
+                    <div class="flex flex-wrap w-1/3">
+                        <div class="p-1 relative">
+                            <a href="https://twitter.com/i/events/1413795054888505344?s=20">
+                                <img src="wowaka.png" alt="Artworks" class="block object-cover object-center w-full h-full rounded-lg">
+                                <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 flex justify-center items-center text-white" style="background-color: #8576F7">Artworks</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap w-1/3">
+                        <div class="p-1 relative">
+                            <img src="clock_photog.jpg" alt="Photographs" class="block object-cover object-center w-full h-full rounded-lg">
+                            <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 flex justify-center items-center text-white" style="background-color: #8576F7">Photographs</div>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap w-1/3">
+                        <div class="p-1 relative">
+                            <img src="emtech_website.png" alt="Websites" class="block object-cover object-center w-full h-full rounded-lg">
+                            <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 flex justify-center items-center text-white" style="background-color: #8576F7">Websites</div>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap w-1/3">
+                        <div class="p-1 relative">
+                            <img src="atmdashboard_program.png" alt="Programs" class="block object-cover object-center w-full h-full rounded-lg">
+                            <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 flex justify-center items-center text-white" style="background-color: #8576F7">Programs</div>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap w-1/3">
+                        <div class="p-1 relative">
+                            <a href="#Achievements">
+                                <img src="ded.png" alt="Achievements" class="block object-cover object-center w-full h-full rounded-lg">
+                                <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 flex justify-center items-center text-white" style="background-color: #8576F7"> Achievements</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap w-1/3">
+                        <div class="p-1 relative">
+                            <a href="#Skills">
+                                <img src="ded.png" alt="Skills" class="block object-cover object-center w-full h-full rounded-lg">
+                                <div class="opacity-0 hover:opacity-100 duration-300 absolute inset-0 flex justify-center items-center text-white" style="background-color: #8576F7"> Skills </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+              </section>
+        </div>
+
+        <div id="Achievements">
+            <div id="achieve-panel"> Achievements </div>
+            <div id="achievements-info">
+                ★ Won 2nd Place at a Programming Contest (2022) <br>
+                ★ Won 2nd Place at a Typing Competition (2015) <br>
+                ★ Competed at a Spelling Bee (2015) <br>
+                ★ Won 1st Place at Track & Field (Intramurals 2017-2019) <br>
+                ★ Won 1st Place at Badminton Summer Camp (2018) <br> 
+                ★ Won People's Choice Award at a Talent Show Competition (2017) <br>
+            </div>
+        </div>
+
+        <div id="Skills">
+            <div id="skills-panel"> Skills </div>
+            <div id="skills-info">
+                ★ Emotionally intelligent and capable of being a mediator
+                <br> ★ Applies creative thinking skills
+                <br> ★ Utilizes critical thinking skills when required to make decisions
+                <br> ★ Capable of problem-solving
+                <br> ★ Willing to learn and accomplish new things
+                <br> ★ Has a skilled and rapid typing speed
+                <br> ★ Has basic knowledge of MS Word, MS PowerPoint, Google Docs, Google Drive, and working with emails
+                <br> ★ Has basic knowledge of C++, Java, HTML, CSS
+            </div>
+        </div>
+
+        <div id="educ-panel"> Educational Background </div>
+        <div id="educ-info">
+            <b>PRIMARY :</b> <br>
+                School of the Holy Spirit of Quezon City <br>
+                <i>June 2012 - March 2017</i><br>
+
+            <br> <b> SECONDARY :</b><br>
+                School of the Holy Spirit of Quezon City <br>
+                <i>June 2017 - May 2021</i><br> 
+                <br>
+                CIIT Senior High School <br>
+                <i>August 2021 - Present </i> <br>
+        </div>
+        
+        <br>
+    </body>
+
+    <footer>
+        <hr color="#700EEA">
+        <p class="text-right underline decoration-double italic">made by Johannah Magadia</p>
+    </footer>
+</html>
